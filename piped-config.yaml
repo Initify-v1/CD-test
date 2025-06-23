@@ -1,0 +1,23 @@
+apiVersion: pipecd.dev/v1beta1
+kind: Piped
+spec:
+  projectID: quickstart
+  # FIXME: Replace here with your piped ID.
+  pipedID: ea4e080d-089b-4322-869e-e473a6eb2612
+  # Base64 encoded string of the piped private key.
+  # FIXME: Replace here with your piped base64 key.
+  pipedKeyData: cTcya2F0b3pudDBvNGQxZnN0czk2MDQ2NzFucXJpZW95eHcwMm1oamt4c2N3Z25tbmU=
+  # Write in a format like "host:443" because the communication is done via gRPC.
+  # FIXME: Replace here with your piped address if you connect Piped to a control plane that does not run locally.
+  apiAddress: localhost:8080
+  repositories:
+  - repoId: CD
+    remote: https://github.com/Initify-v1/CD-test.git
+    branch: main
+  syncInterval: 1m
+  platformProviders:
+  - name: my-cloudrun
+    type: CLOUDRUN
+    config:
+      project: groovy-height-404319
+      region: europe-west1
