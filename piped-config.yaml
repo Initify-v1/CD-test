@@ -3,10 +3,10 @@ kind: Piped
 spec:
   projectID: project-disable-test
   # FIXME: Replace here with your piped ID.
-  pipedID: eaccc5a3-1efd-41d7-b9e1-da932d2cdd53
+  pipedID: 648289e5-02ce-4311-bf77-48451d21e1c0
   # Base64 encoded string of the piped private key.
   # FIXME: Replace here with your piped base64 key.
-  pipedKeyData: ZmIwNDZuM3ZldmN1ZG1wdW0yNXN5Z3YyZ3drbmRqcDBnendjeDVpMjBnYXJrZmM2cmM=
+  pipedKeyData: cXprMjRwMTkzMzJvdmdqYzQ4MzJtaTdhYThmaHg2d2Nxcjk2MmF2ZzU5bnRhdzZta2g=
   # Write in a format like "host:443" because the communication is done via gRPC.
   # FIXME: Replace here with your piped address if you connect Piped to a control plane that does not run locally.
   apiAddress: localhost:8080
