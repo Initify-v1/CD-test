@@ -1,12 +1,12 @@
 apiVersion: pipecd.dev/v1beta1
 kind: Piped
 spec:
-  projectID: project-disable-testt
+  projectID: project-disable-test-3
   # FIXME: Replace here with your piped ID.
-  pipedID: c8597e22-ee67-43da-bde7-35422bd1526f
+  pipedID: 4d895506-4f77-41fd-ac2c-39a247285812
   # Base64 encoded string of the piped private key.
   # FIXME: Replace here with your piped base64 key.
-  pipedKeyData: YW1janFldDU3NWV1YW8xcHA3aXRicmhwYTN3N2tnbHJ4eDRxN2RtbHVyZ3FkdHQ4c3c=
+  pipedKeyData: MTh3emRrdXkwY3F2eXQ2OGQ4MW50a3FzMWdiZHIxdGljYmpnajc4eXFpc2JiOHNrbGM=
   # Write in a format like "host:443" because the communication is done via gRPC.
   # FIXME: Replace here with your piped address if you connect Piped to a control plane that does not run locally.
   apiAddress: localhost:8080
