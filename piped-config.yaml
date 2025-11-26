@@ -1,7 +1,7 @@
 apiVersion: pipecd.dev/v1beta1
 kind: Piped
 spec:
-  projectID: project-disable-test
+  projectID: project-disable-test-2
   # FIXME: Replace here with your piped ID.
   pipedID: 648289e5-02ce-4311-bf77-48451d21e1c0
   # Base64 encoded string of the piped private key.
